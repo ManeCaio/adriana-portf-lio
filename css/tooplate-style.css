@@ -115,8 +115,14 @@ b, strong {
   position: relative;
 }
 
+.item {
+  display: flex;
+  padding: 15px;
+  justify-content: center;
+}
+
 .animated-item {
-  color: #ffc200;
+  color: #ff0080;
 }
 
 .animated-item {
@@ -127,7 +133,7 @@ b, strong {
   overflow: hidden;
   position: absolute;
   top: 0;
-  right: 0;
+  right: -25px;
   left: 0;
   animation: BottomTotop 6s linear infinite 0s;
 }
